@@ -5,7 +5,7 @@
 #include <stdarg.h>
 
 /**
- * struct flags - struct containing all the flags to "turn on"
+ * struct flags - struct containing flags to "turn on"
  * when a flag specifier is passed to _printf()
  * @plus: flag for the '+' character
  * @space: flag for the ' ' character
@@ -30,7 +30,7 @@ typedef struct printHandler
 	int (*f)(va_list ap, flags_t *f);
 } ph;
 
-/* print_nums  */
+/* print_nums */
 int print_int(va_list l, flags_t *f);
 void print_number(int n);
 int print_unsigned(va_list l, flags_t *f);
