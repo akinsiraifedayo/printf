@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_number - prints a number send to this function
- * @args: List of arguments
+ * print_number - prints a number send to the function
+ * @args: List of arguments that are printed
  * Return: The number of arguments printed
  */
 int print_number(va_list args)
@@ -39,7 +39,7 @@ int print_number(va_list args)
 /**
  * print_unsgined_number - Prints an unsigned number
  * @n: unsigned integer to be printed
- * Return: The amount of numbers printed
+ * Return: The amount of numbers that are printed
  */
 int print_unsgined_number(unsigned int n)
 {
