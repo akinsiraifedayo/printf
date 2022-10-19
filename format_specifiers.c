@@ -54,7 +54,7 @@ int print_integer(va_list list)
 
 /**
  * unsigned_integer - Prints Unsigned integers
- * @list: List of all of the argumets
+ * @list: List of all of the required arguements
  * Return: a count of the numbers
  */
 int unsigned_integer(va_list list)
